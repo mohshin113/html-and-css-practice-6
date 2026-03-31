@@ -1,0 +1,58 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --lightgray : hsl(212, 45%, 89%);
+  --grashblue : hsl(216, 15%, 48%);
+  --darkblue : hsl(218, 44%, 22%);
+}
+html, body{
+  height: 100%;
+}
+Body{
+font-family: "Outfit", sans-serif;
+font-weight: 400;
+background-color: var(--lightgray);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+font-weight: 700;
+margin-bottom: 15px;
+}
+p{
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.card{
+  background: var(--White);
+  padding: 15px;
+  border-radius: 15px;
+  width: 280px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+ .card img{
+  border-radius: 10px;
+ }
+ .card-body{
+  padding: 20px 15px;
+  text-align: center;
+ }
+ .card-body h4{
+   color: var(--darkblue);
+   font-size: 19px;
+ }
+ .card-body p{
+    color: var(--grashblue);
+    font-size: 14px;
+ }
